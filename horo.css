@@ -1,0 +1,83 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, sans-serif;
+  background: #62079e;
+  margin: 0;
+  padding: 1.5rem;
+  color: #f5f4ed;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 20px 10%;
+    background: transparent;
+    display: flex;
+    align-items: left;
+    z-index: 100%;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #000202;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 50px;
+    transition: .5s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: #e68f0e;
+} 
+
+header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #fff;
+}
+.subtitle {
+  margin: 0.25rem 0 1rem;
+  color: #666;
+}
+
+.scroll-wrapper {
+  max-height: 80vh;          
+  overflow-y: auto;
+  padding-right: 0.5rem;     
+}
+
+.card {
+  background: #1d7af5;
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 0.75rem;
+}
+.card h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+.card i {
+  font-size: 2rem;
+  color: #c6ca07;
+}
+.card p {
+  margin: 0;
+  line-height: 1.45;
+  color: aliceblue;
+}

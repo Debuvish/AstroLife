@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Birth Chart Generator</title>
+  <link rel="stylesheet" href="Kund.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+     <nav class="navbar">
+        <a href="index.html"><i class='bx bx-chevron-left'></i> BACK</a>
+      </nav>
+    </header>
+  <div class="container">
+    <h2>Kundali</h2>
+    <form id="birthForm">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" required />
+
+      <label for="date">Date of Birth</label>
+      <input type="date" id="date" required />
+
+      <label for="time">Time of Birth</label>
+      <input type="time" id="time" required />
+
+      <label for="place">Place of Birth</label>
+      <input type="text" id="place" required />
+
+      <button type="submit">Details</button>
+    </form>
+
+    <div id="result" class="result"></div>
+  </div>
+
+  <script src="Kund.js"></script>
+</body>
+</html>
